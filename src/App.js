@@ -21,7 +21,7 @@ const Container = styled(FlexCol)`
 `;
 
 const TextContainer = styled(FlexCol)`
-  padding: 2rem;
+  padding: 1rem;
   align-items: center;
   text-align: center;
   justify-content: space-between;
@@ -59,7 +59,7 @@ function App() {
                   src={config.airtable}
                   title="airtable"
                   frameBorder="0"
-                  width="95%"
+                  width="100%"
                   height="533"
                   style={{
                     background: 'transparent'
