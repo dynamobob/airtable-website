@@ -21,11 +21,11 @@ const Container = styled(FlexCol)`
 `;
 
 const TextContainer = styled(FlexCol)`
-  padding: 1rem;
+  padding: 0rem;
   align-items: center;
   text-align: center;
   justify-content: space-between;
-  width: 95%
+  width: 100%
 `;
 
 const Titlehead = {
@@ -57,7 +57,7 @@ function App() {
                   title="airtable"
                   frameBorder="0"
                   width="100%"
-                  height="533"
+                  height="100%"
                   style={{
                     background: 'transparent'
                   }}
