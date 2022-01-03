@@ -51,9 +51,6 @@ function App() {
             <HeaderComponent/>
             <Container>
               <TextContainer>
-                //<h1 style={head}>{config.title}</h1>
-                //<h1 style={head}>{config.subTitle}</h1>
-                <br/>
                 <iframe 
                   className="airtable-embed"
                   src={config.airtable}
